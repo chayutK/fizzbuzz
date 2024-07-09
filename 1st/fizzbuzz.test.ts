@@ -23,7 +23,7 @@ describe('FizzBuzz',()=>{
     it("given 3,should return 'Fizz'",()=>{
       const given = 3
 
-      const result = fizzBuzz(3)
+      const result = fizzBuzz(given)
 
       expect(result).toEqual("Fizz")
     })
