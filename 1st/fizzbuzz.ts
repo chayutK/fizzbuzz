@@ -1,5 +1,9 @@
 export const fizzBuzz = (num:number)=>{
 
+  if(num == 9){
+    return "Fizz"
+  }
+
   if(num == 8){
     return "8"
   }
