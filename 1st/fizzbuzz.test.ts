@@ -91,5 +91,13 @@ describe('FizzBuzz',()=>{
 
       expect(result).toEqual("11")
     })
+
+    it("given 12, should return 'Fizz'",()=>{
+      const given = 12
+
+      const result = fizzBuzz(given)
+
+      expect(result).toEqual("Fizz")
+    })
   })
 })
