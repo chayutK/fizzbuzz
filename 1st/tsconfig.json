@@ -1,0 +1,24 @@
+{
+  "include": ["**/*"],
+  "exclude": [],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "rootDirs": ["."],
+    "outDir": "build",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["es5", "es6"],
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true
+  },
+  "ts-node": {
+    // these options are overrides used only by ts-node
+    // same as the --compilerOptions flag and the TS_NODE_COMPILER_OPTIONS environment variable
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+}
