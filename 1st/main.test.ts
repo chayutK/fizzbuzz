@@ -6,7 +6,7 @@ describe("Normal FizzBuzz",()=>{
     it("Give 1, should return '1'",()=>{
       const given = 1
 
-      const result = FizzBuzz(1)
+      const result = FizzBuzz(given)
 
       expect(result).toEqual("1")
     })
@@ -14,9 +14,17 @@ describe("Normal FizzBuzz",()=>{
     it("Give 2, should return '2'",()=>{
       const given = 2
 
-      const result = FizzBuzz(2)
+      const result = FizzBuzz(given)
 
       expect(result).toEqual("2")
+    })
+
+    it("Give 3, should return '3'",()=>{
+      const given = 3
+
+      const result = FizzBuzz(given)
+
+      expect(result).toEqual("Fizz")
     })
   })
 })
