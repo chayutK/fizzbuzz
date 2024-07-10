@@ -1,12 +1,8 @@
 
 export const FizzBuzz = (num)=>{
-  if(num == 3){
+  if(num%3 == 0){
     return "Fizz"
   }
 
-  if (num == 2){
-    return "2"
-  }
-
-  return "1"
+  return String(num)
 }
