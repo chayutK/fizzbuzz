@@ -66,5 +66,13 @@ describe("Normal FizzBuzz",()=>{
 
       expect(result).toEqual("8")
     })
+
+    it("Give 9, should return '9'",()=>{
+      const given = 9
+
+      const result = FizzBuzz(given)
+
+      expect(result).toEqual("Fizz")
+    })
   })
 })
