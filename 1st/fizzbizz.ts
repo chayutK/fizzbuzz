@@ -3,7 +3,7 @@ export const fizzBuzz = (num:number) => {
     return "Buzz"
   }
 
-  if(num == 3){
+  if(num%3 == 0){
     return "Fizz"
   }
 
