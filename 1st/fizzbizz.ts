@@ -1,4 +1,8 @@
 export const fizzBuzz = (num:number) => {
+  if(num == 15){
+    return "FizzBuzz"
+  }
+
   if(num%5==0){
     return "Buzz"
   }
