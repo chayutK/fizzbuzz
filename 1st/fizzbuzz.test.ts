@@ -131,5 +131,15 @@ describe("Normal FizzBuzz",()=>{
 
       expect(actual).toEqual(expected)
     })
+
+    it("Given 14, should return '14'",()=>{
+      const given = 14
+
+      const expected = "14"
+
+      const actual = fizzBuzz(given)
+
+      expect(actual).toEqual(expected)
+    })
   })
 })
