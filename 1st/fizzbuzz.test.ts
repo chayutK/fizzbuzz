@@ -141,5 +141,15 @@ describe("one if fizzbuzz",()=>{
 
       expect(actual).toEqual(expected)
     })
+
+    it("Given 15, should return 'FizzBuzz'",()=>{
+      const given = 15
+
+      const expected = "FizzBuzz"
+
+      const actual = fizzBuzz(given)
+
+      expect(actual).toEqual(expected)
+    })
   })
 })
