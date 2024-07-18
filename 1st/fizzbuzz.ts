@@ -1,6 +1,6 @@
 export const fizzBuzz = (num:number) => {
-  if(num == 2){
-    return "2"
+  if(num == 3){
+    return "Fizz"
   }
-  return "1"
+  return String(num)
 }
